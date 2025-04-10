@@ -7,6 +7,8 @@
 
   --palm-green: #2e8b57;
 
+  --active-green: #78fc44;
+
   --deep-sea: #006d77;
 
   --white-sand: #ffffff;
@@ -64,12 +66,20 @@ header {
   padding: 4px 12px;
   border-radius: 5px;
   display: inline-block;
+  min-width: 120px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .nav-links li a:hover {
   color: var(--coral);
   border-color: var(--coral);
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-links li a.active {
+  color: var(--active-green);
+  border-color: var(--active-green);
 }
 
 /* main content */
