@@ -1,32 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to Taniti!</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome to Taniti!</title>
-  <link href="css/style.css" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <div class="logo">Taniti 🏝️</div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="accommodations.html">Accommodations</a></li>
+          <li><a href="entertainment.html">Entertainment</a></li>
+          <li><a href="sightseeing.html">Sightseeing</a></li>
+          <li><a href="cuisine.html">Cuisine</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav class="navbar">
-      <div class="">Taniti 🏝️</div>
-      <ul class="nav-links">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="accommodations.html">Accommodations</a></li>
-        <li><a href="entertainment.html">Entertainment</a></li>
-        <li><a href="sightseeing.html">Sightseeing</a></li>
-        <li><a href="cuisine.html">Cuisine</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <section class="hero">
+        <h1>Welcome to Taniti</h1>
+        <p class="intro-text">
+          Welcome to Taniti, a tropical paradise nestled in the Pacific Ocean.
+          With its diverse landscapes ranging from sandy beaches to lush
+          rainforests and a majestic volcano, Taniti offers a unique blend of
+          natural beauty and cultural richness. Home to a vibrant indigenous
+          community, the island is a haven for those seeking adventure,
+          relaxation, and a taste of authentic island life.
+        </p>
+      </section>
 
-  <div>
+      <section class="featured-sections">
+        <div class="feature-card">
+          <img src="images/night-life.jpg" alt="Entertainment in Taniti" />
+          <h2>Entertainment</h2>
+          <p>
+            Discover a world of excitement in Taniti, from exploring the vibrant
+            nightlife at Merriton Landing to thrilling outdoor adventures like
+            zip-lining and snorkeling.
+          </p>
+          <a href="entertainment.html" class="learn-more">Learn More</a>
+        </div>
 
-  </div>
+        <div class="feature-card">
+          <img src="images/volcano.jpg" alt="Sightseeing in Taniti" />
+          <h2>Sightseeing</h2>
+          <p>
+            Immerse yourself in the breathtaking sights of Taniti, from the
+            stunning beaches of Yellow Leaf Bay to the awe-inspiring views from
+            the volcano.
+          </p>
+          <a href="sightseeing.html" class="learn-more">Learn More</a>
+        </div>
 
-</body>
+        <div class="feature-card">
+          <img src="images/hotel.jpg" alt="Accommodations in Taniti" />
+          <h2>Accommodations</h2>
+          <p>
+            Experience the warmth of Tanitian hospitality with a range of
+            accommodations to suit every traveler, from cozy bed and breakfasts
+            to luxurious resorts.
+          </p>
+          <a href="accommodations.html" class="learn-more">Learn More</a>
+        </div>
+      </section>
+    </main>
 
+    <footer>
+      <p>&copy; 2024 Taniti Tourism Board. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
