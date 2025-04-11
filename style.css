@@ -166,6 +166,14 @@ footer {
   margin-top: 3rem;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
@@ -182,7 +190,7 @@ footer {
   }
 }
 
-/* entertainment page  */
+/* main content sections */
 .content-section {
   padding: 40px;
   max-width: 1200px;
@@ -224,19 +232,12 @@ footer {
   flex: 1;
 }
 
-.entertainment-content h3 {
+.content-blurb h3 {
   margin-top: 0;
   font-size: 22px;
 }
 
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
+/* faq page */
 .faq-section {
   padding: 2rem;
   max-width: 1200px;
